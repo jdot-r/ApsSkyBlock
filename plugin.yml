@@ -1,0 +1,37 @@
+name: ApsSkyBlock
+version: 4.5.2
+api: [2.0.0]
+main: SkyBlock\Main
+commands:
+  is:
+    usage: /is <help> <page>
+    description: Tells the user a list of SkyBlock commands
+    permission: is.command.help
+permissions:
+  is:
+    default: false
+    description: Allows the player to use all of the Plugin features
+    children:
+      is.command:
+        default: op
+        description: Allows the player to use all of the SkyBlock commands
+        children:
+          is.command.help:
+            default: true
+            description: Allows the player to use the help command
+          is.command.create:
+            default: true
+            description: Allows the player to use the create skyblock
+          is.command.find:
+            default: op
+            description: Allows the player to use the home command
+          is.command.remove:
+            default: true
+            description: Allows the player to remove their island
+          is.command.sethome:
+            default: true
+            description: Allows the player to set their skyblock home
+          is.command.home:
+            default: true
+            description: Allows the player to tp to their island
+        
