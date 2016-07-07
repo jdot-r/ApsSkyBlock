@@ -395,22 +395,19 @@ class Main extends Base implements Listener{
 			$player->getInventory()->addItem(Item::get(287));
 			$player->getInventory()->addItem(Item::get(287));
 			
-			// Emerald
-			$player->getInventory()->addItem(Item::get(388));
-			$player->getInventory()->addItem(Item::get(388));
-			$player->getInventory()->addItem(Item::get(388));
-			$player->getInventory()->addItem(Item::get(388));
-			$player->getInventory()->addItem(Item::get(388));
+			// Wooden Plank
+			$player->getInventory()->addItem(Item::get(5));
+			$player->getInventory()->addItem(Item::get(5));
+			$player->getInventory()->addItem(Item::get(5));
+			$player->getInventory()->addItem(Item::get(5));
+			$player->getInventory()->addItem(Item::get(5));
 			
 			// Sapling
 			$player->getInventory()->addItem(Item::get(6));
 			$player->getInventory()->addItem(Item::get(6));
 			$player->getInventory()->addItem(Item::get(6));
-			$player->getInventory()->addItem(Item::get(6));
-			$player->getInventory()->addItem(Item::get(6));
 			
 			// Water
-			$player->getInventory()->addItem(Item::get(8));
 			$player->getInventory()->addItem(Item::get(8));
 			
 			// Lava
@@ -419,12 +416,12 @@ class Main extends Base implements Listener{
 			// Seeds
 			$player->getInventory()->addItem(Item::get(295));
 			$player->getInventory()->addItem(Item::get(295));
-			$player->getInventory()->addItem(Item::get(295));
-			$player->getInventory()->addItem(Item::get(295));
-			$player->getInventory()->addItem(Item::get(295));
-			
-			// Melon seeds
+			$player->getInventory()->addItem(Item::get(361));
 			$player->getInventory()->addItem(Item::get(362));
+			$player->getInventory()->addItem(Item::get(458));
+			
+			// Gold Sword
+			$player->getInventory()->addItem(Item::get(283));
 			
 			// Cactus
 			$player->getInventory()->addItem(Item::get(81));
