@@ -18,6 +18,7 @@ use pocketmine\plugin\PluginBase as Base;
 use pocketmine\math\Vector3;
 use pocketmine\block\Dirt;
 use pocketmine\block\Sand;
+use pocketmine\block\Stone;
 use pocketmine\block\Grass;
 use pocketmine\block\Wood;
 use pocketmine\level\generator\object\Tree;
